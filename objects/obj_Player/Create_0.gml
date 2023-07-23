@@ -13,6 +13,7 @@
 mv_Delay = System.game_speed;
 mv_Dist = sprite_width;
 mv_Dir = 0;
+prev_Dir = 0;
 
 //Atributos de la serpiente
 length =  0;

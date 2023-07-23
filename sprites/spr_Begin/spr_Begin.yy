@@ -2,10 +2,6 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Begin",
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,6 +20,10 @@
   "DynamicTexturePage": false,
   "width": 64,
   "height": 64,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "swatchColours": null,
   "gridX": 8,
   "gridY": 8,

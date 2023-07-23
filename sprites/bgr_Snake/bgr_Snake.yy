@@ -2,10 +2,6 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "bgr_Snake",
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -24,6 +20,10 @@
   "DynamicTexturePage": false,
   "width": 640,
   "height": 640,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "swatchColours": null,
   "gridX": 0,
   "gridY": 0,
