@@ -11,6 +11,12 @@
 	*(Script) Aparece la primera comida	*/
 	
 	if(room == rm_Main) {
+		
+		//Lee el archivo con la mejor puntuacion
+		ini_open("SaveFile.ini");
+		top_score = ini_read_real("Game", "Score", -1);
+		ini_close();
+		
 		//Aparece al jugador
 		instance_create_depth(32,32,-99,obj_Player);
 		

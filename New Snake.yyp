@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "New Snake",
   "resources": [
+    {"id":{"name":"rm_Start","path":"rooms/rm_Start/rm_Start.yy",},"order":1,},
     {"id":{"name":"spr_Cell","path":"sprites/spr_Cell/spr_Cell.yy",},"order":0,},
     {"id":{"name":"spr_Snake","path":"sprites/spr_Snake/spr_Snake.yy",},"order":1,},
     {"id":{"name":"spr_Begin","path":"sprites/spr_Begin/spr_Begin.yy",},"order":2,},
@@ -25,6 +26,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_Start","path":"rooms/rm_Start/rm_Start.yy",},},
     {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
   ],
   "Folders": [

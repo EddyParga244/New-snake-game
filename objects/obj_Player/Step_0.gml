@@ -20,10 +20,16 @@ if (prev_Dir != 0) //Izquierda
 if (prev_Dir != 1) //Abajo
 	if (keyboard_check(vk_down)) mv_Dir = 3;
 	
-//Colicion con serpiente o borde
+//Colision con serpiente o borde
 if (System.Grid[# x/mv_Dist,y/mv_Dist] > 0 || 
     System.Grid[# x/mv_Dist,y/mv_Dist] == -2) {
-	game_restart();
+	
+	//Guarda la mejor puntuacion en un archivo
+	ini_open("SaveFile.ini");
+	ini_write_real("Game", "Score", System.top_score);
+	ini_close();
+	
+	room_goto(rm_Start);
 } 
 //Comer comida
 else if (System.Grid[# x/mv_Dist,y/mv_Dist] == -1){

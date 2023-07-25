@@ -1,6 +1,12 @@
-/// @description Click this shit
+/// @description
 
-/*	*Default sprite to first image
-	*Image two if mouse-over
-	*Last Image if mouse-pressed
-	*On Release - Set Speed and change Room	*/
+//	*On Release - Set Speed and change Room	*/
+//Cambia la velocidad y cambia a la pantalla del menu al del juego
+highlight = false;
+if (position_meeting(mouse_x, mouse_y, id)){
+	highlight = true;
+	if (mouse_check_button_released(mb_left)){
+		System.game_speed = game_speed;
+		room_goto_next();
+	}
+}

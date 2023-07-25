@@ -1,4 +1,7 @@
 /// @description Initialize Start Button
 
-/*	*Don't cycle Sprites
-	*Hold Game Speed variable	*/
+//Velocidad del juego
+game_speed = 10;
+highlight = false;
+title = "Play";
+	

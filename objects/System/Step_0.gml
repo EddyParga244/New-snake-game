@@ -5,7 +5,7 @@ if (room == rm_Main){
 	if(obj_Player.length == num_cells-1){
 		show_debug_message("You win");
 		show_message("You win")
-		game_restart();
+		room_goto(rm_Start);
 	}
 }
 
